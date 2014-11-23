@@ -105,6 +105,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgc-Pk-IIF"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNw-ZB-UhL">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="279" width="233" height="33"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="8TG-YO-Uzk"/>
                                 <exclude reference="zat-tK-DMH"/>
                                 <exclude reference="3Al-Vd-sp3"/>
+                                <exclude reference="SNw-ZB-UhL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="8TG-YO-Uzk"/>
                                 <include reference="zat-tK-DMH"/>
                                 <include reference="3Al-Vd-sp3"/>
+                                <include reference="SNw-ZB-UhL"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterMessageTextField" destination="8TG-YO-Uzk" id="dCC-Yq-nGo"/>
                         <outlet property="enterNameTextField" destination="ldX-5i-Zdp" id="m0z-dH-LDm"/>
                         <outlet property="messageLabel" destination="zat-tK-DMH" id="gBr-MZ-ZFO"/>
+                        <outlet property="nameLabel" destination="SNw-ZB-UhL" id="luZ-CV-Pxe"/>
                         <outlet property="sendMailButton" destination="3Al-Vd-sp3" id="6I5-Nh-xhW"/>
                     </connections>
                 </viewController>
